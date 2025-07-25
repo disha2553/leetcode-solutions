@@ -28,5 +28,13 @@
 	<li><code>nums[i]</code> is either <code>0</code>, <code>1</code>, or <code>2</code>.</li>
 </ul>
 
-<p>&nbsp;</p>
-<p><strong>Follow up:</strong>&nbsp;Could you come up with a one-pass algorithm using only&nbsp;constant extra space?</p>
+<hr>
+
+<h3>Approach: Counting Sort (Two-pass)</h3>
+<p>We first count the number of 0s, 1s, and 2s in the array using three counters. Then we overwrite the array by placing the exact number of 0s, then 1s, then 2s in order. This method is efficient because the number of distinct elements is fixed and small.</p>
+
+<h3>Time Complexity:</h3>
+<p>O(n) — One full pass for counting and another full pass for rewriting the array.</p>
+
+<h3>Space Complexity:</h3>
+<p>O(1) — Only three integer variables are used for counting. No extra array is needed.</p>
