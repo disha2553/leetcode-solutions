@@ -1,42 +1,34 @@
-<h2><a href="https://leetcode.com/problems/contains-duplicate">217. Contains Duplicate</a></h2><h3>Easy</h3><hr><p>Given an integer array <code>nums</code>, return <code>true</code> if any value appears <strong>at least twice</strong> in the array, and return <code>false</code> if every element is distinct.</p>
+## 🔢 [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)  
+**Difficulty:** Easy  
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+### 📝 Problem Statement  
+Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and `false` if every element is distinct.
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,2,3,1]</span></p>
+### 🧪 Examples  
 
-<p><strong>Output:</strong> <span class="example-io">true</span></p>
+**Example 1:**  
+> Input: `nums = [1, 2, 3, 1]`  
+> Output: `true`  
+> Explanation: The number 1 appears more than once.
 
-<p><strong>Explanation:</strong></p>
+**Example 2:**  
+> Input: `nums = [1, 2, 3, 4]`  
+> Output: `false`  
+> Explanation: All elements are unique.
 
-<p>The element 1 occurs at the indices 0 and 3.</p>
-</div>
+**Example 3:**  
+> Input: `nums = [1,1,1,3,3,4,3,2,4,2]`  
+> Output: `true`  
+> Explanation: Several numbers are repeated.
 
-<p><strong class="example">Example 2:</strong></p>
+### ✅ Constraints  
+- `1 <= nums.length <= 10⁵`  
+- `-10⁹ <= nums[i] <= 10⁹`  
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,2,3,4]</span></p>
+---
 
-<p><strong>Output:</strong> <span class="example-io">false</span></p>
+### 💡 Approach (using HashSet)  
+Use a set to keep track of elements seen so far. If an element is already in the set, a duplicate exists.  
 
-<p><strong>Explanation:</strong></p>
-
-<p>All elements are distinct.</p>
-</div>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,1,1,3,3,4,3,2,4,2]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">true</span></p>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
-</ul>
+- **Time Complexity**: O(n)  
+- **Space Complexity**: O(n)  
