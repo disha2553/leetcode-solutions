@@ -1,34 +1,51 @@
-## 🔢 [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)  
-**Difficulty:** Easy  
+<h2><a href="https://leetcode.com/problems/contains-duplicate">217. Contains Duplicate</a></h2>
 
-### 📝 Problem Statement  
-Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and `false` if every element is distinct.
+<h3>Easy</h3>
+<hr>
 
-### 🧪 Examples  
+<p>
+Given an integer array <code>nums</code>, return <code>true</code> if any value appears <strong>at least twice</strong> in the array, and <code>false</code> if every element is distinct.
+</p>
 
-**Example 1:**  
-> Input: `nums = [1, 2, 3, 1]`  
-> Output: `true`  
-> Explanation: The number 1 appears more than once.
+<h3>Example 1:</h3>
 
-**Example 2:**  
-> Input: `nums = [1, 2, 3, 4]`  
-> Output: `false`  
-> Explanation: All elements are unique.
+<pre>
+<strong>Input:</strong> nums = [1, 2, 3, 1]
+<strong>Output:</strong> true
+</pre>
 
-**Example 3:**  
-> Input: `nums = [1,1,1,3,3,4,3,2,4,2]`  
-> Output: `true`  
-> Explanation: Several numbers are repeated.
+<h3>Example 2:</h3>
 
-### ✅ Constraints  
-- `1 <= nums.length <= 10⁵`  
-- `-10⁹ <= nums[i] <= 10⁹`  
+<pre>
+<strong>Input:</strong> nums = [1, 2, 3, 4]
+<strong>Output:</strong> false
+</pre>
 
----
+<h3>Example 3:</h3>
 
-### 💡 Approach (using HashSet)  
-Use a set to keep track of elements seen so far. If an element is already in the set, a duplicate exists.  
+<pre>
+<strong>Input:</strong> nums = [1,1,1,3,3,4,3,2,4,2]
+<strong>Output:</strong> true
+</pre>
 
-- **Time Complexity**: O(n)  
-- **Space Complexity**: O(n)  
+<hr>
+
+<h3>Approach: HashSet</h3>
+
+<p>
+We use a <code>HashSet</code> to store elements we’ve seen.  
+While iterating through the array, if an element already exists in the set, we return <code>true</code> immediately.  
+If no duplicates are found after the loop, we return <code>false</code>.
+</p>
+
+<h3>Time Complexity:</h3>
+
+<p>
+<code>O(n)</code> — We traverse the array once, and set operations take constant time on average.
+</p>
+
+<h3>Space Complexity:</h3>
+
+<p>
+<code>O(n)</code> — In the worst case, all n elements are added to the set.
+</p>
