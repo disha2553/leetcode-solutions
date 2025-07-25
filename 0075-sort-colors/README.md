@@ -19,7 +19,6 @@
 <strong>Output:</strong> [0,1,2]
 </pre>
 
-<p>&nbsp;</p>
 <hr>
 
 <h3>Approach: Counting Sort (Two-pass)</h3>
