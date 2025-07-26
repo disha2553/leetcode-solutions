@@ -24,10 +24,12 @@
 <strong>Output:</strong> false
 </pre>
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+<hr> 
+<h3>Approach: Recursive Tree Comparison</h3> 
+<p>We use recursion to compare both trees simultaneously. If both nodes are null, we return true. If one is null and the other is not, or if their values don’t match, we return false. Otherwise, we recursively check the left and right children of both nodes. This ensures both structure and values are matched.</p> 
 
-<ul>
-	<li>The number of nodes in both trees is in the range <code>[0, 100]</code>.</li>
-	<li><code>-10<sup>4</sup> &lt;= Node.val &lt;= 10<sup>4</sup></code></li>
-</ul>
+<h3>Time Complexity:</h3> 
+<p>O(n) — We visit each node once, where n is the total number of nodes in both trees.</p> 
+
+<h3>Space Complexity:</h3> 
+<p>O(h) — Where h is the height of the tree, due to the recursive call stack. In the worst case (skewed tree), it could be O(n).</p>
