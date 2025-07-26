@@ -22,19 +22,13 @@ rotate 1 steps to the right: [99,-1,-100,3]
 rotate 2 steps to the right: [3,99,-1,-100]
 </pre>
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+<hr>
 
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>-2<sup>31</sup> &lt;= nums[i] &lt;= 2<sup>31</sup> - 1</code></li>
-	<li><code>0 &lt;= k &lt;= 10<sup>5</sup></code></li>
-</ul>
+<h3>Approach: Reversal Algorithm</h3>
+<p>We use the reversal method to rotate the array in-place. First, reverse the entire array. Then reverse the first <code>k</code> elements, and finally reverse the remaining <code>n - k</code> elements. This technique achieves the desired rotation without using extra space and is efficient for large arrays.</p>
 
-<p>&nbsp;</p>
-<p><strong>Follow up:</strong></p>
+<h3>Time Complexity:</h3>
+<p>O(n) — Each reversal takes O(n), and we perform three reversals.</p>
 
-<ul>
-	<li>Try to come up with as many solutions as you can. There are at least <strong>three</strong> different ways to solve this problem.</li>
-	<li>Could you do it in-place with <code>O(1)</code> extra space?</li>
-</ul>
+<h3>Space Complexity:</h3>
+<p>O(1) — No extra space is used; all operations are in-place.</p>
