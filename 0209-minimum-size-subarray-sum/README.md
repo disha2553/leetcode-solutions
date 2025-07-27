@@ -23,14 +23,13 @@
 <strong>Output:</strong> 0
 </pre>
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+<hr>
 
-<ul>
-	<li><code>1 &lt;= target &lt;= 10<sup>9</sup></code></li>
-	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>
-</ul>
+<h3>Approach: Sliding Window</h3>
+<p>We use two pointers to create a sliding window. We expand the window by moving the right pointer and keep adding elements to the current sum. Once the sum is greater than or equal to the target, we try to shrink the window from the left while maintaining the condition. During this, we update the minimum window size. If no valid subarray is found, we return 0.</p>
 
-<p>&nbsp;</p>
-<strong>Follow up:</strong> If you have figured out the <code>O(n)</code> solution, try coding another solution of which the time complexity is <code>O(n log(n))</code>.
+<h3>Time Complexity:</h3>
+<p>O(n) — Each element is visited at most twice, once by the right pointer and once by the left.</p>
+
+<h3>Space Complexity:</h3>
+<p>O(1) — Constant space is used regardless of input size.</p>
