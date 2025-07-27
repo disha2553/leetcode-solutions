@@ -22,11 +22,13 @@
 <strong>Output:</strong> 1
 </pre>
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+<hr>
 
-<ul>
-	<li><code>n == height.length</code></li>
-	<li><code>2 &lt;= n &lt;= 10<sup>5</sup></code></li>
-	<li><code>0 &lt;= height[i] &lt;= 10<sup>4</sup></code></li>
-</ul>
+<h3>Approach: Two Pointer Technique</h3>
+<p>We initialize two pointers at the start and end of the array. At each step, we calculate the area formed by the lines at these two positions and update the maximum area found so far. We move the pointer pointing to the shorter line inward, as the area is limited by the shorter height, hoping to find a taller line that may increase the area. This continues until the two pointers meet.</p>
+
+<h3>Time Complexity:</h3>
+<p>O(n) — We traverse the array only once using two pointers.</p>
+
+<h3>Space Complexity:</h3>
+<p>O(1) — We use only constant extra space.</p>
