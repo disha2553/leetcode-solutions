@@ -10,3 +10,19 @@ I’ve solved them using clean and easy-to-understand code, mostly in **JAVA**.
 - To practice and improve problem-solving skills.
 - To keep a record of solved problems.
 - To help others understand simple approaches to LeetCode problems.
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Hash Table
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/disha2553/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+## String
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/disha2553/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/disha2553/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+<!---LeetCode Topics End-->
