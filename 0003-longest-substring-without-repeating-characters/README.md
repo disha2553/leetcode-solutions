@@ -26,10 +26,13 @@
 Notice that the answer must be a substring, &quot;pwke&quot; is a subsequence and not a substring.
 </pre>
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+<hr>
 
-<ul>
-	<li><code>0 &lt;= s.length &lt;= 5 * 10<sup>4</sup></code></li>
-	<li><code>s</code> consists of English letters, digits, symbols and spaces.</li>
-</ul>
+<h3>Approach: Sliding Window with HashSet</h3>
+<p>We use two pointers to maintain a window and a HashSet to store unique characters. If the current character is not in the set, we add it and update the maximum length. If it is already in the set, we remove characters from the left until the duplicate is removed. This allows us to efficiently track the longest substring without repeating characters.</p>
+
+<h3>Time Complexity:</h3>
+<p>O(n) — Each character is visited at most twice, once by the right pointer and once by the left.</p>
+
+<h3>Space Complexity:</h3>
+<p>O(k) — Where k is the number of unique characters in the string (could be up to 128 or 256 depending on character set).</p>
