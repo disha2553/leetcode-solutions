@@ -18,6 +18,7 @@ I’ve solved them using clean and easy-to-understand code, mostly in **JAVA**.
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/disha2553/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0073-set-matrix-zeroes](https://github.com/disha2553/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
+| [0217-contains-duplicate](https://github.com/disha2553/leetcode-solutions/tree/master/0217-contains-duplicate) |
 ## String
 |  |
 | ------- |
@@ -33,6 +34,7 @@ I’ve solved them using clean and easy-to-understand code, mostly in **JAVA**.
 | [0014-longest-common-prefix](https://github.com/disha2553/leetcode-solutions/tree/master/0014-longest-common-prefix) |
 | [0073-set-matrix-zeroes](https://github.com/disha2553/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/disha2553/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0217-contains-duplicate](https://github.com/disha2553/leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0287-find-the-duplicate-number](https://github.com/disha2553/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 ## Trie
 |  |
@@ -58,4 +60,8 @@ I’ve solved them using clean and easy-to-understand code, mostly in **JAVA**.
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/disha2553/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/disha2553/leetcode-solutions/tree/master/0217-contains-duplicate) |
 <!---LeetCode Topics End-->
