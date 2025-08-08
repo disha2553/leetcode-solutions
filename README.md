@@ -32,6 +32,7 @@ I’ve solved them using clean and easy-to-understand code, mostly in **JAVA**.
 | ------- |
 | [0014-longest-common-prefix](https://github.com/disha2553/leetcode-solutions/tree/master/0014-longest-common-prefix) |
 | [0073-set-matrix-zeroes](https://github.com/disha2553/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/disha2553/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 ## Trie
 |  |
 | ------- |
@@ -40,4 +41,16 @@ I’ve solved them using clean and easy-to-understand code, mostly in **JAVA**.
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/disha2553/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
+## Two Pointers
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/disha2553/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
+## Binary Search
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/disha2553/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/disha2553/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
