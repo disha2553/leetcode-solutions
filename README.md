@@ -24,6 +24,7 @@ I’ve solved them using clean and easy-to-understand code, mostly in **JAVA**.
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/disha2553/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0014-longest-common-prefix](https://github.com/disha2553/leetcode-solutions/tree/master/0014-longest-common-prefix) |
+| [1894-merge-strings-alternately](https://github.com/disha2553/leetcode-solutions/tree/master/1894-merge-strings-alternately) |
 ## Sliding Window
 |  |
 | ------- |
@@ -48,6 +49,7 @@ I’ve solved them using clean and easy-to-understand code, mostly in **JAVA**.
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/disha2553/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
+| [1894-merge-strings-alternately](https://github.com/disha2553/leetcode-solutions/tree/master/1894-merge-strings-alternately) |
 ## Binary Search
 |  |
 | ------- |
