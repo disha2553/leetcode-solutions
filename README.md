@@ -69,4 +69,20 @@ I’ve solved them using clean and easy-to-understand code, mostly in **JAVA**.
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/disha2553/leetcode-solutions/tree/master/0217-contains-duplicate) |
+## Tree
+|  |
+| ------- |
+| [0112-path-sum](https://github.com/disha2553/leetcode-solutions/tree/master/0112-path-sum) |
+## Depth-First Search
+|  |
+| ------- |
+| [0112-path-sum](https://github.com/disha2553/leetcode-solutions/tree/master/0112-path-sum) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0112-path-sum](https://github.com/disha2553/leetcode-solutions/tree/master/0112-path-sum) |
+## Binary Tree
+|  |
+| ------- |
+| [0112-path-sum](https://github.com/disha2553/leetcode-solutions/tree/master/0112-path-sum) |
 <!---LeetCode Topics End-->
